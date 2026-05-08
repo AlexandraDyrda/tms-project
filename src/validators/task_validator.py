@@ -3,4 +3,3 @@ class TaskValidator:
         if not title:
             return False
         return bool(title.strip())
-    
